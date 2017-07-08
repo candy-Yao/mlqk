@@ -1,0 +1,118 @@
+<!-- 
+* ================================================
+* @Author: 姚星如
+* @Date: 2016
+* @Content: 课程辅导
+* ================================================
+-->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>课程辅导</title>
+        <link rel="stylesheet" href="style/common1.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/sudy-slider.css">
+        <script type="text/javascript" src="js/comm.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.sudySlider.m.js"></script>
+    </head>
+    <body onLoad="LenScroll()">
+        <div class="comwidth">
+            <header>
+                <ul class="head1" >
+                    <li class="welcome fl">
+                        <form name="nextForm" >
+                            <input type="text" name="lenText" class="form2"/>
+                        </form>	
+                    </li>
+                    <li>
+                        <a href="#" class="register">登录</a>
+                        <a href="#" class="register">注册</a> 
+                        <a href="#" class="register1">忘记密码？</a>
+                    </li>
+                </ul>
+                <ul class="head2">
+                    <li class="ma fl">码力全开</li>
+                    <li class="search">
+                        <form action="">
+                            <input type="text" onFocus="txtfocus()" onBlur="txtblur()" class="input1">
+                            <input type="submit" value="搜索" class="input2">
+                        </form>
+                    </li>
+                </ul>
+                <div class="image">
+                    <div><img src="images/20.jpg" width="100%" height="550" alt="" onMouseOver="visible(this,1)" onMouseOut="visible(this,0)"></div>
+                    <div class="navigation">
+                        <ul>
+                            <li ><a href="../mlqk/gywm.html" class="fr word1">关于我们</a></li>
+                            <li ><a href="../mlqk/kcfd.html" class="fr word1">课程辅导</a></li>
+                            <li ><a href="../mlqk/cjcx.html" class="fr word1">成绩查询</a></li>
+                            <li ><a href="../mlqk/bm.html" class="fr word1">我要报名</a></li>
+                            <li ><a href="../mlqk/mlqk.html" class="fr word1">码力首页</a></li>     
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <section>
+                <div class="content0">
+                    <table width="80%">
+                        <caption class="kcword">码力全开震撼来袭，你准备好了吗？</caption>
+                        <tbody>
+                            <tr>
+                                <td class="table"><img src="images/10.png" width="95" height="92" /></td>
+                                <td class="table"><img src="images/9.png" width="90" height="94" /></td>
+                                <td class="table"><img src="images/8.png" width="90" height="94" /></td>
+                                <td class="table"><img src="images/6.png" width="90" height="94" /></td>
+                            </tr>
+                            <tr>
+                                <td><button onmouseover="this.style.backgroundColor='yellow';" onmouseout="this.style.backgroundColor='pink';"  class="button2-2" ><a href="../mlqk/gywm.html"  class="button2-1">开课时间查询&raquo;&raquo;</a></button></td>
+                                <td><button onmouseover="this.style.backgroundColor='yellow';" onmouseout="this.style.backgroundColor='pink';"  class="button2" ><a href="../mlqk/gywm.html"  class="button2-1">就业薪资查询&raquo;&raquo;</a></button></td>
+                                <td><button onmouseover="this.style.backgroundColor='yellow';" onmouseout="this.style.backgroundColor='pink';"  class="button2-2" ><a href="../mlqk/gywm.html"  class="button2-1">课程学费查询&raquo;&raquo;</a></button></td>
+                                <td><button onmouseover="this.style.backgroundColor='yellow';" onmouseout="this.style.backgroundColor='pink';"  class="button2" ><a href="../mlqk/gywm.html"  class="button2-1">免费试学查询&raquo;&raquo;</a></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tiao">码力全开入住，校舍环境一览。</div>
+                <div class="kuang">
+                    <div id="slider" style="margin:80px auto;width:1000px;"></div>
+                </div>
+                <div class="tiao">全新课堂试听，棒不棒你说了算。</div>
+                <div class="kuang">
+                    <div class="box2 shadow">
+                        <table>
+                            <tr>
+                                <td class="box2_td"><a href="" class="cword3">二级c语言</a></td>
+                                <td class="box2_td"><a href="" class="cword3">二级c++</a></td>
+                                <td class="box2_td"><a href="" class="cword3">二级java</a></td>
+                                <td class="box2_td"><a href="" class="cword3">一级office</a></td>
+                                <td class="box2_td"><a href="" class="cword3">三级数据库</a></td>
+                                <td class="box2_td"><a href="" class="cword3">网络工程师</a></td>
+                            </tr>
+                        </table>
+                        <div class="nav">
+                            <ul>
+                                <li><a href="#" ></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#" ></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#" ></a></li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+            </section>
+            <footer>
+                <div class="foot">
+                    <div class="fword">重庆师范大学计算机与信息科学学院&nbsp;&nbsp;版权所有</div>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript">
+        $(function(){
+        $("#slider").sudySlider();
+        });
+        </script>
+    </body>
+</html>

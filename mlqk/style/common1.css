@@ -1,0 +1,845 @@
+/*清零代码*/
+html, body, div, span,h1, h2, h3, h4, h5, h6, p,
+a,dl, dt, dd, ol, ul, li, form,img
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*清浮动*/
+.dearfix:after {
+    content:""; 
+    display:block; 
+    clear:both;
+}
+.clearfix {
+    zoom:1;
+}
+/*共同的样式*/
+.comwidth {
+    width: 100%;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/*头部*/
+.head1 {
+    width: 100%; 
+    height: 30px; 
+    background-color: #000; 
+    padding-top: 10px; 
+}
+.form2 {
+    width: 180px; 
+    height: 20px; 
+    font-size: 16px;
+    background-color:#fff; 
+}
+.welcome {
+    margin: 0px 980px 0px 25px;  
+    color:#000; 
+    font-size:16px;
+}
+.register { 
+    text-decoration: none; 
+    color:#fff;
+}
+.register1 { 
+    text-decoration: none; 
+    color:#fff; 
+    font-size: 13px;
+}
+.head2 {
+    width:  100%; 
+    height: 80px; 
+    background-color:#fff; 
+    padding-top: 30px; 
+    position: relative;
+}
+.input2 {
+    padding: 1px 4px;
+    font-size: 16px;
+}
+.head2 li:first-child:first-letter {
+  color: red;
+  font-size: 50px;
+}
+.ma {
+    font-size:25px;
+    color:#301AEF; 
+    font-weight: bold;
+    margin:10px 550px 0 230px;
+}
+.search {
+    margin-top: 20px;
+}
+.image {
+    position: relative;
+    width: 100%; 
+    height: 550px; 
+}
+.navigation {
+    background-color:rgba(0,152,50,0.4);
+    width:  100%; 
+    height: 45px; 
+    position: absolute; 
+    left: 0; top: 0; 
+}
+.word1 {
+    color:#fff;
+    font-size:16px; 
+    text-decoration: none;
+    margin: 15px 30px 0px 20px; 
+    font-weight: bold;
+}
+/*成绩查询身材*/
+.nav {
+    width:1200px; 
+    height:200px; 
+    margin:15px auto;
+}
+.nav ul li { 
+    float:left; 
+    width:150px;
+    margin-left: 35px;
+}
+.nav ul li a:link,a:visited {
+    display:block; 
+    width:150px; 
+    height:150px; 
+    background:url(../images/13.jpg);
+}/*链接、点击后*/
+.nav ul li a:hover {
+    background:url(../images/14.jpg);
+}/*鼠标经过*/
+.nav ul li a:active {
+    background:url(../images/13.jpg);
+}/*点击时*/
+.content0 {
+    width: 100%; 
+    height: 550px;
+    background-color: #fff; 
+    padding: 50px 0 0 120px;
+}
+.cword {
+    font-size: 40px; 
+    color: #000; 
+    margin: 45px auto; 
+    text-shadow:1px 1px rgba(123,123,123,0.5),
+                2px 2px rgba(123,123,123,0.5),
+                3px 3px rgba(123,123,123,0.5),
+                4px 4px rgba(123,123,123,0.5),
+                5px 5px rgba(123,123,123,0.5);
+}
+.table { 
+    height: 100px; 
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+.cword1 {
+    font-size:20px;
+    text-align: center; 
+    font-weight: bold; 
+}
+.inquire {
+    width: 150px;
+    height: 30px; 
+    background-color:#186CED; 
+    color:#000;
+    font-size:16px;
+}
+.cword2 {
+    text-align: center; 
+    width: 80%; 
+    height: 80px;
+}
+.content1 {
+    background-image: url(../images/4.jpg);
+    background-size:100% 550px; 
+    padding: 75px 0px;
+}
+.box1 {
+    width: 400px; 
+    height: 400px;
+    background-color:rgba(249,249,249,0.5);
+    margin-left: 300px; 
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px ;
+    border-radius:  35px; 
+}
+.shadow {
+    -webkit-box-shadow: 0px 0px 60px;
+        -moz-box-shadow: 0px 0px 60px ;
+            box-shadow: 0px 0px 60px;
+}
+.form1 {
+    padding: 50px 0 0 50px; 
+    font-size:20px;
+}		 
+.input1 {
+    width: 180px;
+    height: 22px;
+    font-size: 16px;
+}
+.submit1 {
+    margin: 40px 20px 0 110px; 
+    padding: 4px 10px; 
+    font-size: 18px;
+}
+.submit2 { 
+    padding: 4px 10px; 
+    font-size: 18px;
+}
+.content2 {
+    width: 100%; 
+    height: 550px; 
+    background-color: #fff;
+}
+.box2 {
+    width: 1230px; 
+    height: 250px; 
+    padding-top: 30px;
+    margin-top: 100px; 
+    margin-left: 50px;
+    -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+            border-radius: 35px;
+}
+.box2_td {
+    width: 193px;
+    height: 30px; 
+    text-align: center;
+}
+.cword3 {
+    text-decoration: none; 
+    color:#1736C9; 
+    font-size: 26px; 
+    font-weight: bold;
+}
+.cword4 {
+    font-size: 40px; 
+    color: #000; 
+    margin:75px 0 85px 350px;
+    text-shadow:1px 1px rgba(123,123,123,0.5),
+                2px 2px rgba(123,123,123,0.5),
+                3px 3px rgba(123,123,123,0.5),
+                4px 4px rgba(123,123,123,0.5),
+                5px 5px rgba(123,123,123,0.5);
+}
+/*码力全开*/
+/*报名中心*/
+.content3 {
+    width: 100%; 
+    height: 550px;
+    background-color: #fff; 
+    padding-top: 50px;
+}
+.cword6 {
+    font-size: 40px; 
+    color: #000; 
+    text-align: center; 
+    font-weight: bold;
+    margin: 60px 0;
+}
+.cword5 {
+    font-size: 60px;
+    color:red; 
+    text-align: center; 
+    font-weight: bold;
+}
+.cword7 {
+    font-size: 40px; 
+    color: #000; 
+    text-align: center; 
+    font-weight: bold;
+    margin: 55px 0px 70px 0px;
+}
+.button1 {
+    margin-left: 560px; 
+    padding: 8px 20px; 
+    font-size:25px; 
+    color:#000; 
+    font-weight: bold;
+}
+/*我要报名*/
+.head2 dd:first-child:first-letter {
+  color: red;
+  font-size: 50px;
+}
+.content4 {
+    width: 100%; 
+    height: 550px; 
+    background-color:#E1E1E1;
+}
+.content4_table {
+    width: 400px; 
+    height: 550px; 
+    float: left;
+}
+.content4_div {
+    width: 600px; 
+    height: 550px; 
+    float: left; 
+    margin: 0px 0 0 100px;
+}
+.text-gradient {
+    color: green;font-size: 4em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.td1 {
+    padding: 70px 0 0 50px;
+}
+.li4 {
+    margin-top: -13px; 
+    text-align: center; 
+    color:red; 
+    font-size:25px;
+}
+.box3 {
+    width: 400px; 
+    height: 550px; 
+    padding: 100px 0 0 100px; 
+}
+.li2 {
+    width: 250px;
+    height: 30px;
+    background-color: red; 
+    font-size:20px; 
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px; 
+    margin: 50px 0 ; 
+    -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+            border-radius:  35px;
+} 
+.li3 {
+    width: 350px;
+    height: 30px;
+    background-color: red; 
+    font-size:20px; 
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    margin: 40px 0; 
+    -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+            border-radius:  35px;
+}
+.button2 {
+    margin: 20px 0 0 20px; 
+    font-size:25px; 
+    color:#000; 
+    font-weight: bold;
+    -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+            border-radius:  35px;
+}
+.button2-1 {
+ text-decoration: none;
+}
+.content5 {
+    width: 100%;
+    height: 550px;
+}
+#content {
+    position: relative;
+    width: 100%;
+    height: 550px; 
+    margin: 0 auto;
+}
+#content a {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 175px;
+    color: #fff;
+}
+#content a:hover {
+    background: #000;
+    opacity: 0.5;
+}
+#prev {
+    position: absolute;
+    left: 10px;
+    font-size: 60px;
+    text-decoration: none;
+    text-align: center;
+}
+#next {
+    position: absolute;
+    right: 10px;
+    font-size: 60px;
+    text-decoration: none;
+    text-align: center;
+}
+#text {
+    position: absolute;
+    margin: 0px;
+    bottom: 0px;
+    width: 400px;
+    font-size: 30px;
+    text-align: center;
+}
+#span1 {
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+}  /*加载图片张数*/
+#img1 {
+    height: 550px;
+    width: 100%;
+}
+/*选择码力全开*/
+.content6 {
+    width: 100%; 
+    height: 550px; 
+    background-color:#E1E1E1; 
+}
+.box4 {
+    width: 450px; 
+    height: 450px; 
+    background-color:#373737; 
+    margin-left: 50px;  
+    float: left; 
+    text-align: center;
+    padding-top: 100px;
+}
+.box5 {
+    width: 720px; 
+    height: 490px; 
+    padding: 40px 0 0 80px;  
+    float: left; 
+    text-align: center;
+}
+.td2 {
+    padding: 30px 0 0 30px;
+}
+.span1 {
+    font-size:50px; 
+    color:#fff;  
+}    
+.text-gradient1 {
+    color: green;
+    font-size: 3em; 
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.li2_1 {
+    width: 450px;
+    height: 30px;
+    background-color: red; 
+    font-size:20px; 
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    margin: 50px 0 0 90px; 
+    -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+            border-radius:  35px;
+} 
+.li3_1 {
+    width: 550px;
+    height: 30px;
+    background-color: red; 
+    font-size:20px; 
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    margin: 40px 0 20px 50px; 
+    -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+            border-radius:  35px;
+}
+/*2016*/
+.content2_div {
+    text-align: center;
+}
+/*关于我们*/
+.fanh {
+    background-attachment: fixed;
+    }/*返回顶部*/
+.fh {position:fixed; 
+    bottom:3px; right:5px; 
+    position:absolute; 
+    top:expression(documentElement.scrollTop+document.documentElement.clientHeight -18);  
+}
+.gdiv {
+    background-image: url(../images/20.jpg); 
+    background-size:100% 550px; 
+    opacity:0.5;
+}
+.box7 {
+    width: 100%; 
+    height:500px;
+    margin-bottom: 100px;
+}
+/*选项卡*/
+#div1 .active {
+    background:rgba(0,152,50,0.2);
+    padding: 5px;
+}
+#div1 div {
+    width:800px; 
+    height:400px; 
+    border:1px solid #ccc; 
+    background:rgba(0,152,50,0.2); 
+    display:none;
+}
+/*课程辅导*/
+.kuang {
+    width: 100%; 
+    height:400px;
+    background: #fff;
+}
+.tiao {
+    width: 100%; 
+    height:50px; 
+    background-color: #707070; 
+    color:#fff;
+    font-size: 30px; 
+    font-weight: bold; 
+    text-align: center;
+    padding-top: 10px;
+}
+.button2-2 {
+    margin: 20px 0 0 20px; 
+    font-size:25px; color:#000;
+    -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+            border-radius:  35px;
+}
+.kcword {
+    font-size: 40px; 
+    color: #000; 
+    margin: 35px auto; 
+    text-shadow: 1px 1px rgba(123,123,123,0.5),
+                2px 2px rgba(123,123,123,0.5),
+                3px 3px rgba(123,123,123,0.5),
+                4px 4px rgba(123,123,123,0.5),
+                5px 5px rgba(123,123,123,0.5);
+}
+/*我要报名*/
+.wtable {
+    margin-left: 120px; 
+    font-size:40px;
+}
+.wcontent {
+    width: 100%;
+    height: 620px; 
+    text-align: center;
+}
+.wtd1 {
+    margin: 0;
+    padding: 0;
+    background-color: #C13434; 
+    width: 2px; 
+    height: 2px;
+}
+.wtd2 {
+    width: 100px;
+    height: 100px;
+    margin:0px;
+    padding: 0;
+}
+.wtd3 {
+    width: 700px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.bcontent {
+    background-image: url(../images/25.jpg); 
+    background-size:100% 550px; 
+    padding: 75px 0px;
+    margin-bottom: 30px;
+}
+.bbox {
+    width: 400px; 
+    height: 400px;
+    background-color:rgba(249,249,249,0.5);     
+    margin-left: 700px; 
+        -webkit-border-radius: 35px;
+            -moz-border-radius: 35px ;
+                border-radius:  35px; }
+.bform {
+    padding: 30px 0 0 50px; 
+    font-size:20px;
+}
+.bform0 {
+    padding: 50px 0 0 50px; 
+    font-size:20px;
+}			   
+.bsubmit1 {
+    margin: 30px 20px 0 120px; 
+    padding: 3px 8px; 
+    font-size: 18px;
+}
+.bsubmit2 {
+    padding: 3px 8px; 
+    font-size: 18px;
+}
+/*阅读考试须知*/
+.yspan {
+    font-size:20px; 
+    font-weight: bold; 
+    color:red;
+}
+.ydiv {
+    width: 1200px;
+    height: 490px;
+    border: 2px dashed red;
+    text-align: center;
+    margin: 30px 0 30px 60px; 
+    padding-top: 40px;
+}
+.textarea {
+    font-size: 16px; 
+    font-weight: bold;
+    margin-top: 30px; 
+}
+.gfoot {
+    width: 100%;
+    height: 280px;
+    background-color: #333;
+    padding-top: 16px;
+}
+.gabout {
+    width: 215px;
+    height: 43px;
+    background-color: #222;
+    margin:0px 0 0 202px;
+}
+.gabout0 {
+    width: 215px;
+    height: 43px;
+    background-color: #222; 
+}
+.gword_sy2 {
+    font-size: 40px; 
+    margin:10px 5px 0 10px; 
+    color: #f86e9e;
+    font-weight: bold;
+    font-family: "华文行楷";
+}
+.gword_shey2 {
+    font-size: 15px; 
+    margin: 20px 0 0 3px; 
+    color:#fff;
+    font-weight: bold;
+}
+.gword_bu2 {
+    font-size: 12px; 
+    margin: 25px 0 0 0px; 
+    color:#fff;
+    font-weight: bold;
+}
+.gabout1 {
+    width: 60px;
+    height: 43px;
+    background-color: #000;
+    margin-right: 45px;
+}
+.gabout2 {
+    font-size:15px;
+    font-size: 15px; 
+    margin: 20px 0 0 3px; 
+    color:#fff;
+    font-weight: bold;
+}
+.gtable {
+    width: 1000px;
+    height: 218px;
+    border: 0;
+    margin: 60px 0 0 230px;
+}
+.gtd1 {
+    font-size: 15px;
+    color:#fff;
+    font-weight: bold;
+}
+.gbox1 {
+    width: 230px;
+    height: 218px;
+}
+.gbox1_1 {
+    width: 250px;
+    height: 218px;
+}
+.gtd2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.gtd3 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+.gtd4 {
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+.gtd5 {
+    position: absolute;
+    top: 84px;
+    left: 0;
+}
+.gtd6 {
+    position: absolute;
+    top: 94px;
+    left: 100px;
+}
+.gtd7 {
+    position: absolute;
+    top: 84px;
+    left: 200px;
+}
+.gbox2 {
+    width: 320px;
+    height: 188px;
+    position: relative;
+}
+/*最最下面*/
+.gbox3 {
+    width: 100%;
+    height: 120px;
+    background-color: #191919;
+    padding-top: 30px;
+}
+.gbox4 {
+    width: 520px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+.gp_td {
+    font-size: 18px;
+    color:#fff;
+    font-weight: bold;
+}
+.gdiv {
+    width: 1240px;
+    height: 40px; 
+    color:#fff;
+    background-color: #BFBFBF; 
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+/*底部*/
+.foot {
+    width: 100%; 
+    height: 30px; 
+    background-color: #000; 
+    padding-top: 12px;
+}
+.fword {
+    color:#fff; 
+    text-align: center; 
+}
+/*关于我们*/
+.bodyCon07 {
+    width:100%; 
+    overflow:hidden;
+}
+.bodyCon07 .teacher {
+    width:1100px;
+    height: 400px;
+    position:relative;
+    margin:0 auto; 
+    overflow:hidden;
+}
+.bodyCon07 .teacher .teacherPic {
+    width:1100px;
+    height:360px;
+    position:absolute; 
+    top:30px;
+}
+.bodyCon07 .teacher .teacherPic .content {
+    width:180px;
+    height:360px;
+    float:left;
+    position:relative;
+    overflow:hidden;
+    margin-left:3px;
+}
+.bodyCon07 .teacher .teacherPic .content .txt {
+    width:156px;
+    height:100px;
+    background:rgba(18,21,44,0.7); 
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    padding:0 12px;
+    border-top:2px solid #CB5412;
+}
+.bodyCon07 .teacher .teacherPic .content .txt h3 {
+    color:#CB5412;
+    font-size:24px;
+    font-weight:100;
+    margin:10px 0 6px 0;
+}
+.bodyCon07 .teacher .teacherPic h4 {
+    color:#fff;
+    font-size:14px;
+    font-weight:100;
+}
+.bodyCon07 .teacher .teacherPic .content .txt p {
+    color:#fff;
+    margin-top:20px;
+    padding-top:12px;
+    border-top:1px solid #CB5412;
+}
+.bword1 {
+    color:#fff;
+    font-size:16px; 
+    text-decoration: none;
+     margin: 10px 30px 0px 20px; 
+     font-weight: bold;
+}

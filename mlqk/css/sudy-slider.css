@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
+.sudyslider .slider-container .slides .slide{ background:url() repeat-x center bottom;}
+.sudyslider .slider-control { margin-top:5px; height:12px; background-color:#e5e5e5; border-radius:6px;}
+.sudyslider .slider-control .slider-widget {width:65px; height:16px; top:50%; margin-top:-8px; background-color:#0099cc; border-radius:8px; cursor:pointer;}
